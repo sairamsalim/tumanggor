@@ -13,12 +13,16 @@ const config: Config = {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         primary: {
-          DEFAULT: '#1a365d',
+          DEFAULT: '#221c66',
           foreground: '#ffffff',
         },
         secondary: {
-          DEFAULT: '#c4a777',
-          foreground: '#1a365d',
+          DEFAULT: '#f5da73',
+          foreground: '#221c66',
+        },
+        tertiary: {
+          DEFAULT: '#ad7b24',
+          foreground: '#ffffff',
         },
         card: {
           DEFAULT: 'hsl(var(--card))',

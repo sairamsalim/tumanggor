@@ -11,8 +11,8 @@ export function Newsletter() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Thank you for subscribing!",
-      description: "You'll receive our newsletter updates soon.",
+      title: "Terima kasih telah berlangganan!",
+      description: "Anda akan segera menerima pembaruan buletin kami.",
     });
     setEmail("");
   };
@@ -22,22 +22,22 @@ export function Newsletter() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-primary mb-4">
-            Stay Informed
+            Tetap Terinformasi
           </h2>
           <p className="text-gray-600 mb-8">
-            Subscribe to our newsletter for legal insights, firm updates, and
-            industry news.
+            Berlangganan buletin kami untuk mendapatkan wawasan hukum, pembaruan firma,
+            dan berita industri.
           </p>
           <form onSubmit={handleSubmit} className="flex gap-4 max-w-md mx-auto">
             <Input
               type="email"
-              placeholder="Enter your email"
+              placeholder="Masukkan email Anda"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
               className="flex-1"
             />
-            <Button type="submit">Subscribe</Button>
+            <Button type="submit">Berlangganan</Button>
           </form>
         </div>
       </div>

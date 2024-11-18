@@ -23,17 +23,17 @@ export function HeroSection() {
           className="max-w-4xl mx-auto text-white"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Excellence in Legal Services
+            Keunggulan dalam Layanan Hukum
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-100">
-            Protecting Your Rights with Dedication and Expertise
+            Melindungi Hak Anda dengan Dedikasi dan Keahlian
           </p>
           <Button 
             size="lg"
             className="bg-secondary hover:bg-secondary/90 text-primary font-semibold"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Schedule a Consultation
+            Jadwalkan Konsultasi
           </Button>
         </motion.div>
       </div>

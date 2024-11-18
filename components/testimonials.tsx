@@ -9,19 +9,19 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "CEO, Tech Innovations Inc.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3",
-    content: "Tumanggor Law Firm provided exceptional legal counsel during our company's merger. Their expertise and dedication were invaluable.",
+    content: "Kantor Hukum Tumanggor memberikan konsultasi hukum yang luar biasa selama proses merger perusahaan kami. Keahlian dan dedikasi mereka sangat berharga.",
   },
   {
     name: "Michael Chen",
-    role: "Real Estate Developer",
+    role: "Pengembang Real Estate",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
-    content: "Their attention to detail and profound knowledge of real estate law helped us navigate complex property acquisitions seamlessly.",
+    content: "Perhatian mereka terhadap detail dan pengetahuan mendalam tentang hukum properti membantu kami menangani akuisisi properti yang kompleks dengan lancar.",
   },
   {
     name: "Emily Rodriguez",
-    role: "Small Business Owner",
+    role: "Pemilik Usaha Kecil",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3",
-    content: "The team's personalized approach and clear communication made the entire legal process smooth and understandable.",
+    content: "Pendekatan personal tim dan komunikasi yang jelas membuat seluruh proses hukum berjalan lancar dan mudah dipahami.",
   },
 ];
 
@@ -31,11 +31,11 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Client Testimonials
+            Testimoni Klien
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Our clients' success stories reflect our commitment to excellence and
-            dedication to achieving the best possible outcomes.
+            Kisah sukses klien kami mencerminkan komitmen kami terhadap keunggulan dan
+            dedikasi untuk mencapai hasil terbaik.
           </p>
         </div>
 

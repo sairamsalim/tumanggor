@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Scale, Menu, X } from 'lucide-react';
 
@@ -9,11 +10,11 @@ const navItems = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'Practice Areas', href: '/practice-areas' },
-  { label: 'Contact', href: '/contact' },
 ];
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <nav className="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b">
@@ -32,12 +33,16 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-primary transition-colors"
+                className={`text-gray-700 hover:text-primary transition-colors ${
+                  pathname === item.href ? 'text-primary font-semibold' : ''
+                }`}
               >
                 {item.label}
               </Link>
             ))}
-            <Button>Contact Us</Button>
+            <Button asChild>
+              <Link href="/contact">Contact Us</Link>
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -64,14 +69,18 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
+                className={`block px-3 py-2 text-gray-700 hover:text-primary transition-colors ${
+                  pathname === item.href ? 'text-primary font-semibold' : ''
+                }`}
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
               </Link>
             ))}
             <div className="px-3 py-2">
-              <Button className="w-full">Contact Us</Button>
+              <Button asChild className="w-full">
+                <Link href="/contact">Contact Us</Link>
+              </Button>
             </div>
           </div>
         </div>

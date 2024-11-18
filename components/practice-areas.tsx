@@ -6,17 +6,17 @@ import { Scale, Briefcase, FileText } from "lucide-react";
 const areas = [
   {
     title: "Corporate Law",
-    description: "Expert guidance in business law, mergers & acquisitions, and corporate governance.",
+    description: "Panduan ahli dalam hukum bisnis, merger & akuisisi, dan tata kelola perusahaan.",
     icon: Briefcase,
   },
   {
     title: "Civil Litigation",
-    description: "Skilled representation in complex civil disputes and litigation proceedings.",
+    description: "Representasi terampil dalam sengketa perdata dan proses litigasi kompleks.",
     icon: Scale,
   },
   {
     title: "Contract Law",
-    description: "Comprehensive contract drafting, review, and dispute resolution services.",
+    description: "Layanan lengkap penyusunan, peninjauan, dan penyelesaian sengketa kontrak.",
     icon: FileText,
   },
 ];
@@ -27,11 +27,11 @@ export function PracticeAreas() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Our Practice Areas
+            Area Praktik Kami
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We offer comprehensive legal services across various practice areas,
-            ensuring expert representation for all your legal needs.
+            Kami menyediakan layanan hukum komprehensif di berbagai bidang praktik,
+            memastikan representasi ahli untuk semua kebutuhan hukum Anda.
           </p>
         </div>
 

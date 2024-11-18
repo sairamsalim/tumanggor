@@ -7,22 +7,22 @@ const achievements = [
   {
     icon: Trophy,
     number: "98%",
-    label: "Success Rate",
+    label: "Tingkat Keberhasilan",
   },
   {
     icon: Users,
     number: "1000+",
-    label: "Satisfied Clients",
+    label: "Klien Puas",
   },
   {
     icon: Briefcase,
     number: "50+",
-    label: "Years Experience",
+    label: "Tahun Pengalaman",
   },
   {
     icon: Award,
     number: "25+",
-    label: "Industry Awards",
+    label: "Penghargaan Industri",
   },
 ];
 
@@ -32,11 +32,11 @@ export function Achievements() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our Achievements
+            Pencapaian Kami
           </h2>
           <p className="text-gray-200 max-w-2xl mx-auto">
-            A track record of success and excellence in legal services spanning
-            over five decades.
+            Rekam jejak kesuksesan dan keunggulan dalam layanan hukum selama
+            lebih dari lima dekade.
           </p>
         </div>
 
