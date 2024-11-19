@@ -1,17 +1,17 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Playfair_Display, Inter } from 'next/font/google';
-import { Toaster } from '@/components/ui/toaster';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { CookieConsent } from '@/components/cookie-consent';
+import { Toaster } from 'sonner';
 
 const playfair = Playfair_Display({ subsets: ['latin'] });
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Tumanggor Law Firm - Excellence in Legal Services',
-  description: 'Protecting Your Rights with Dedication and Expertise. Leading law firm specializing in corporate, civil, and criminal law.',
+  title: 'Tumanggor Law Firm - Keunggulan dalam Layanan Hukum',
+  description: 'Melindungi Hak Anda dengan Dedikasi dan Keahlian. Firma hukum terkemuka yang mengkhususkan diri dalam hukum korporasi, perdata, dan pidana.',
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="id" className="scroll-smooth">
       <body className={`${inter.className} antialiased`}>
         <Navigation />
         <main>{children}</main>

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { toast } from "@/components/ui/use-toast";
+import { toast } from "sonner";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export default function ContactPage() {
@@ -18,9 +18,8 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Pesan Terkirim",
-      description: "Kami akan menghubungi Anda segera.",
+    toast.success("Pesan Terkirim", {
+      description: "Kami akan menghubungi Anda segera."
     });
     setFormData({
       name: "",

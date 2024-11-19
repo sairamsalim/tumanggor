@@ -3,16 +3,15 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { toast } from "@/components/ui/use-toast";
+import { toast } from "sonner";
 
 export function Newsletter() {
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Terima kasih telah berlangganan!",
-      description: "Anda akan segera menerima pembaruan buletin kami.",
+    toast.success("Terima kasih telah berlangganan!", {
+      description: "Anda akan segera menerima pembaruan buletin kami."
     });
     setEmail("");
   };
