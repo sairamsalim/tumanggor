@@ -35,8 +35,7 @@ export function Achievements() {
             Pencapaian Kami
           </h2>
           <p className="text-gray-200 max-w-2xl mx-auto">
-            Rekam jejak kesuksesan dan keunggulan dalam layanan hukum selama
-            lebih dari lima dekade.
+            Rekam jejak kesuksesan dan keunggulan dalam layanan hukum.
           </p>
         </div>
 

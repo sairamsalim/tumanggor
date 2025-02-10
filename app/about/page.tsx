@@ -9,7 +9,7 @@ export default function AboutPage() {
           <Scale className="h-16 w-16 text-primary mx-auto mb-6" />
           <h1 className="text-4xl font-bold text-primary mb-6">Tentang Kami</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Sejak 1970, Kantor Hukum Tumanggor telah menjadi pemimpin dalam memberikan layanan hukum berkualitas tinggi di Indonesia.
+            Sejak 2024, Tumanggor Law Firm telah menjadi pemimpin dalam memberikan layanan hukum berkualitas tinggi di Indonesia.
           </p>
         </div>
 
@@ -33,17 +33,17 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: "Dr. Tumanggor, S.H., M.H.",
+                name: "Very Sansuddin Tumanggor, S.H.",
                 role: "Pendiri & Partner Senior",
-                description: "Lebih dari 30 tahun pengalaman dalam hukum korporasi dan litigasi kompleks."
+                description: "Lebih dari 10 tahun pengalaman dalam hukum korporasi dan litigasi kompleks."
               },
               {
-                name: "Budi Santoso, S.H., LL.M.",
+                name: "Sulaiman Daulay, S.H.",
                 role: "Partner",
                 description: "Spesialis dalam hukum properti dan real estate dengan pengalaman internasional."
               },
               {
-                name: "Siti Rahma, S.H., M.Kn.",
+                name: "Eko Arianto, S.H.",
                 role: "Partner",
                 description: "Ahli dalam hukum kontrak dan penyelesaian sengketa bisnis."
               }

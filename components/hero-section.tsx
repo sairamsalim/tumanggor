@@ -31,7 +31,12 @@ export function HeroSection() {
           <Button 
             size="lg"
             className="bg-secondary hover:bg-secondary/90 text-primary font-semibold"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              const newWindow = window.open("https://wa.me/60145830062", '_blank');
+              if (newWindow) {
+                newWindow.focus();
+              }
+            }}
           >
             Jadwalkan Konsultasi
           </Button>

@@ -13,8 +13,7 @@ export function Footer() {
               <span className="font-bold text-xl">Tumanggor</span>
             </Link>
             <p className="mt-4 text-sm text-gray-300">
-              Keunggulan dalam layanan hukum sejak 1970. Melindungi hak Anda dengan
-              dedikasi dan keahlian.
+            Menyediakan total solusi dan sebagai problem solver terhadap permasalahan hukum secara menyeluruh termasuk dukungan teknis serta jasa layanan konsultasi kepada pelanggan, untuk memenuhi kebutuhan pelanggan yang sangat kritikal.
             </p>
           </div>
 
@@ -24,10 +23,10 @@ export function Footer() {
               Hubungi Kami
             </h3>
             <address className="not-italic text-gray-300 space-y-2">
-              <p>Jl. Hukum No. 123</p>
-              <p>Jakarta Selatan, 12190</p>
-              <p>Telepon: (021) 123-4567</p>
-              <p>Email: kontak@tumanggor.com</p>
+              <p>DMNQ BUILDING Lt. 2</p>
+              <p>DKI Jakarta 10720</p>
+              <p>Telepon: +60 14-583 0062 | +62 852-1336-0161</p>
+              <p>Email: lawfirmverys@tumanggor.id</p>
             </address>
           </div>
         </div>

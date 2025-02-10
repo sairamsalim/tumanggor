@@ -1,36 +1,36 @@
-import { Scale, Briefcase, FileText, Building2, Gavel, Users } from "lucide-react";
+import { Scale, Briefcase, FileText, Car, Barcode, CandyCane } from "lucide-react";
 
 const practiceAreas = [
   {
-    icon: Building2,
-    title: "Hukum Korporasi",
-    description: "Spesialisasi dalam merger & akuisisi, tata kelola perusahaan, dan kepatuhan regulasi."
-  },
-  {
+    title: "Personal Injury",
+    description: "Kami menyediakan bantuan hukum untuk kasus cedera pribadi, termasuk tuntutan ganti rugi, negosiasi dengan pihak asuransi, dan representasi pengadilan guna memastikan klien mendapatkan keadilan dan kompensasi yang layak.",
     icon: Scale,
-    title: "Litigasi Perdata",
-    description: "Representasi dalam sengketa perdata kompleks dan penyelesaian sengketa alternatif."
   },
   {
-    icon: FileText,
-    title: "Hukum Kontrak",
-    description: "Penyusunan, peninjauan, dan negosiasi kontrak bisnis dan komersial."
-  },
-  {
+    title: "Industrial Injury",
+    description: "Kami memberikan pendampingan hukum terkait cedera industri, termasuk klaim kompensasi pekerja, penyelesaian sengketa, serta perlindungan hak-hak pekerja sesuai dengan peraturan ketenagakerjaan yang berlaku.",
     icon: Briefcase,
-    title: "Hukum Properti",
-    description: "Penanganan transaksi real estate, perizinan, dan sengketa properti."
   },
   {
-    icon: Gavel,
-    title: "Hukum Ketenagakerjaan",
-    description: "Konsultasi hubungan industrial, perjanjian kerja, dan penyelesaian perselisihan."
+    title: "Insurance Claims",
+    description: "Kami menyediakan layanan hukum khusus untuk klaim asuransi, termasuk penyelesaian sengketa, analisis kebijakan, dan representasi klien dalam proses klaim untuk memastikan hak dan kepentingan mereka terlindungi.",
+    icon: FileText,
   },
   {
-    icon: Users,
-    title: "Hukum Keluarga",
-    description: "Penanganan kasus perceraian, warisan, dan perencanaan estate."
-  }
+    title: "Automobile Accidents",
+    description: "Kami memberikan bantuan hukum terkait kecelakaan mobil, termasuk klaim asuransi, ganti rugi, dan representasi hukum untuk memastikan klien mendapatkan hak dan kompensasi yang adil.",
+    icon: Car,
+  },
+  {
+    title: "Criminal Defence",
+    description: "Kami menyediakan layanan pembelaan hukum dalam kasus pidana, termasuk representasi di pengadilan, konsultasi strategi, dan perlindungan hak-hak klien untuk memastikan keadilan dalam proses hukum.",
+    icon: Barcode,
+  },
+  {
+    title: "Elder Law",
+    description: "Kami memberikan layanan hukum khusus untuk lansia, termasuk perencanaan estate, perlindungan aset, hak perawatan kesehatan, dan bantuan dalam masalah hukum yang berkaitan dengan usia lanjut.",
+    icon: CandyCane,
+  },
 ];
 
 export default function PracticeAreasPage() {

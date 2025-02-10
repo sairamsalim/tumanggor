@@ -1,23 +1,38 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Scale, Briefcase, FileText } from "lucide-react";
+import { Scale, Briefcase, FileText, Car, Barcode, CandyCane } from "lucide-react";
 
 const areas = [
   {
-    title: "Corporate Law",
-    description: "Panduan ahli dalam hukum bisnis, merger & akuisisi, dan tata kelola perusahaan.",
-    icon: Briefcase,
-  },
-  {
-    title: "Civil Litigation",
-    description: "Representasi terampil dalam sengketa perdata dan proses litigasi kompleks.",
+    title: "Personal Injury",
+    description: "Kami menyediakan bantuan hukum untuk kasus cedera pribadi, termasuk tuntutan ganti rugi, negosiasi dengan pihak asuransi, dan representasi pengadilan guna memastikan klien mendapatkan keadilan dan kompensasi yang layak.",
     icon: Scale,
   },
   {
-    title: "Contract Law",
-    description: "Layanan lengkap penyusunan, peninjauan, dan penyelesaian sengketa kontrak.",
+    title: "Industrial Injury",
+    description: "Kami memberikan pendampingan hukum terkait cedera industri, termasuk klaim kompensasi pekerja, penyelesaian sengketa, serta perlindungan hak-hak pekerja sesuai dengan peraturan ketenagakerjaan yang berlaku.",
+    icon: Briefcase,
+  },
+  {
+    title: "Insurance Claims",
+    description: "Kami menyediakan layanan hukum khusus untuk klaim asuransi, termasuk penyelesaian sengketa, analisis kebijakan, dan representasi klien dalam proses klaim untuk memastikan hak dan kepentingan mereka terlindungi.",
     icon: FileText,
+  },
+  {
+    title: "Automobile Accidents",
+    description: "Kami memberikan bantuan hukum terkait kecelakaan mobil, termasuk klaim asuransi, ganti rugi, dan representasi hukum untuk memastikan klien mendapatkan hak dan kompensasi yang adil.",
+    icon: Car,
+  },
+  {
+    title: "Criminal Defence",
+    description: "Kami menyediakan layanan pembelaan hukum dalam kasus pidana, termasuk representasi di pengadilan, konsultasi strategi, dan perlindungan hak-hak klien untuk memastikan keadilan dalam proses hukum.",
+    icon: Barcode,
+  },
+  {
+    title: "Elder Law",
+    description: "Kami memberikan layanan hukum khusus untuk lansia, termasuk perencanaan estate, perlindungan aset, hak perawatan kesehatan, dan bantuan dalam masalah hukum yang berkaitan dengan usia lanjut.",
+    icon: CandyCane,
   },
 ];
 
